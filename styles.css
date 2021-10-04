@@ -135,6 +135,8 @@ canvas {
 }
 
 .footer {
+    display: flex;
+    justify-content: flex-start;
     width: 75%;
     color: #222;
     border-radius: 25px;
