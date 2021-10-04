@@ -184,21 +184,20 @@ body {
 
 .footer {
     width: 75%;
-    display: flex;
     color: #222;
-    border: 3px solid black;
     border-radius: 25px;
     margin: 1%;
     padding: 1%;
     background-color: #e8d5d5;
     box-shadow: 2px 2px 5px gray;
-    justify-content: flex-start;
 }
 
-.footer h1 {
+.footer h4 {
+    display: flex;
     font-size: 2.4rem;
     line-height: 1.5;
     letter-spacing: -.05rem;
+    justify-content: flex-start;
 }
 
 
