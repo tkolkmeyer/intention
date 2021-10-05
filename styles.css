@@ -80,12 +80,11 @@ canvas {
     float: left;
     padding: .5%;
     margin: 1%;
-    border-left: 3px solid #CBD4E9;
+    border: 1px solid #CBD4E9;
 }
 
 .horizontal-navigation li:hover {
-    border-left-color: black;
-    border-radius: 20px;
+    border-color: black;
 }
 
 .horizontal-navigation a {
