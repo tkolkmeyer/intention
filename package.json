@@ -1,0 +1,27 @@
+{
+    "name": "intention",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "typescript": "^4.4.3"
+    },
+    "devDependencies": {
+        "webpack": "^5.57.1",
+        "webpack-cli": "^4.8.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/tkolkmeyer/intention.git"
+    },
+    "author": "Taylor Kolkmeyer",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/tkolkmeyer/intention/issues"
+    },
+    "homepage": "https://github.com/tkolkmeyer/intention#readme"
+}
