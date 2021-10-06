@@ -50,7 +50,7 @@ canvas {
     –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .spin {
-    animation: 3s spin 1;
+    animation: 10s spin 1;
 }
 
 @keyframes spin {
