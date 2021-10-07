@@ -4,8 +4,8 @@ function setup() { 
 
 }
 
-function draw() {  
-    triangle(mouseX, mouseY, mouseY / 3)  
-    let c = color(mouseX, mouseY, Math.floor(Math.random() * 1000)) 
-    fill(c)
+function draw() {
+    triangle(mouseX, mouseX*2, mouseY*2, mouseX,0,0)
+  let c = color(mouseX*2, mouseY/6, Math.floor(Math.random() * 777)) 
+  fill(c)
 }
