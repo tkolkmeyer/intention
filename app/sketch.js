@@ -1,6 +1,7 @@
 function setup() { 
     createCanvas(1000, 600); 
-    background(220);
+    background(51); //TODO@lavalord changed the background color
+    
 }
 
 function draw() {  
