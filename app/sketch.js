@@ -2,7 +2,7 @@ let button;
 let shapeSwitch = 0;
 
 function setup() { 
-    createCanvas(windowWidth, windowHeight); 
+    createCanvas(windowWidth - 100 , windowHeight); 
     background(51); //TODO@lavalord changed the background color
     button = createButton('click me'); 
     button.position(0, 0);
@@ -45,5 +45,5 @@ function changeShape() {
 //resizes canvas when window size is changed
 
 function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth - 100, windowHeight);
 }
