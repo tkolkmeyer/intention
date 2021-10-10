@@ -24,7 +24,7 @@ if(shapeSwitch === 1)
   }
 if(shapeSwitch === 2)
   {
-    square(mouseX, mouseX * 3, mouseY);
+    square(mouseX, mouseY, mouseY * 1.5);
   }
 
   let c = color(mouseX*2, mouseY/6, Math.floor(Math.random() * 777)) 
