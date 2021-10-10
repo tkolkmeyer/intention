@@ -2,13 +2,15 @@ let button;
 let shapeSwitch = 0;
 
 function setup() { 
-    createCanvas(1000, 600); 
+    createCanvas(windowWidth, windowHeight); 
     background(51); //TODO@lavalord changed the background color
-    button = createButton('click me');
+    button = createButton('click me'); 
     button.position(0, 0);
     button.mousePressed(changeShape);
 
 }
+
+//draw function with support for circles, triangles and squares.
 
 function draw() {
   
@@ -29,6 +31,8 @@ if(shapeSwitch === 2)
   fill(c)
 }
 
+//changeShape is a simple switch that iterates a variable when our button is clicked
+
 function changeShape() {
   shapeSwitch++;
   
@@ -36,4 +40,10 @@ function changeShape() {
     {
       shapeSwitch = 0;
     }
+} 
+
+//resizes canvas when window size is changed
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
