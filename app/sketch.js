@@ -20,7 +20,7 @@ if(shapeSwitch === 0)
   }
 if(shapeSwitch === 1)
   {
-    triangle(mouseX, mouseX*2, mouseY*2, mouseX,0,0)
+    triangle(mouseX, mouseX*2, mouseY*2, mouseX,mouseY * 2,mouseX / 2)
   }
 if(shapeSwitch === 2)
   {
