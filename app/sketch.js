@@ -2,6 +2,7 @@ let button;
 let shapeSwitch = 0;
 
 function setup() { 
+    noCursor();
     createCanvas(windowWidth - 100 , windowHeight - 100); 
     background(51); //TODO@lavalord changed the background color
     button = createButton('click me'); 
